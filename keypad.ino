@@ -20,9 +20,9 @@ void setup(){
 }
   
 void loop(){
-  char customKey = customKeypad.getKey();
+  char Key = customKeypad.getKey();
   
-  if (customKey){
-    Serial.println(customKey);
+  if (Key){
+    Serial.println(Key);
   }
 }
